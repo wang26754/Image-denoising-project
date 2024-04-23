@@ -3,6 +3,7 @@
 ################Train###############
 
 run scunet denoising sigma 25.: 
+
 python main.py --net 'scunet' --mode 'normal' --sigma 25.
 
 run DMergenet denoising sigma 25.: 
@@ -23,6 +24,7 @@ python main.py --net 'swin' --mode 'normal' --sigma 25.
 ###############Test###################
 
 test scunet denosing sigma 25
+
 python test.py --net 'scunet' --mode 'normal' --sigma 25
 
 test DMergenet denosing sigma 25
