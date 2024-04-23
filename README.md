@@ -1,6 +1,7 @@
 # TAU-Thesis-project
 
 ################Train###############
+
 run scunet denoising sigma 25.: 
 python main.py --net 'scunet' --mode 'normal' --sigma 25.
 
@@ -20,6 +21,7 @@ run SwinIR denoising sigma 25.:
 python main.py --net 'swin' --mode 'normal' --sigma 25.
 
 ###############Test###################
+
 test scunet denosing sigma 25
 python test.py --net 'scunet' --mode 'normal' --sigma 25
 
