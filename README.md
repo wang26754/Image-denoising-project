@@ -1,4 +1,4 @@
-# TAU-Thesis-project
+# Image-Denoising-project
 
 ################Train###############
 
